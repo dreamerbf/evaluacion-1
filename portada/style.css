@@ -1,0 +1,164 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+background-image: linear-gradient(
+    rgba(0,0,0,0.7),
+    rgba(0,0,0,0.7)),
+    url(img/fondo.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+min-height: 70vh;
+display: flex;
+align-items: center;
+color:bisque
+
+}
+
+.menu { 
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+}
+
+.logo{
+    color: #fffdfc;
+    font-size: 25px;
+    
+}
+
+.menu .navbar ul li { 
+    position: relative;
+    float: left;
+
+}
+
+
+.menu .navbar ul li a {  
+    font-size: 18px;
+    padding: 20px;
+    color: #ff9500;
+    display: block;
+
+
+    
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 25px;
+}
+.header-content{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header-content h1 {
+    color:#fec84b;
+    margin-bottom: 25px;
+}
+.header-content p {
+    color:#a78600;
+    padding: 0 250px;
+    margin-bottom: 60px;
+    
+}
+
+.btn-1 { 
+    display: inline-block;
+    padding: 11px 30px;
+    background-color: #ffbf009a;
+    color: #2b1c00;
+}
+
+.btn-1:hover { 
+    background-color: #ffb7005b;
+}
+
+.cheesse {
+    padding: 100px 0px;
+    background-color: #41120071;
+    position: relative;
+}
+.cheesse img {
+   position: absolute;
+   top: 0;
+   right: 0;
+   width: 500px;
+   
+   
+}
+.cheesse-menu h2{ 
+
+    text-align: left;
+    margin-bottom: 50px;
+    display: inline-block;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 55px;
+    text-transform: uppercase;
+    color:#452500fb;
+    line-height: 70px;
+    margin-left: 50px;
+}
+
+.btn-2 {
+
+padding: 11px 35px;
+background-color: #c39200;
+color: #6a4000;
+margin-right: 20px;
+text-transform: uppercase;
+margin-left: 40px;
+margin-bottom: 30px;
+font-size: 25px;
+
+}
+.btn-3 {
+   
+    padding: 11px 35px;
+    background-color: #c39200;
+    color: #6a4000;
+    display: inline-block;
+    text-transform: uppercase;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    font-size: 25px;
+    
+    }
+
+
+.btn-4 {
+        padding: 11px 35px;
+        background-color: #c39200;
+        color: #6a4000;
+        display: inline-block;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+        font-size: 25px;
+    }
+
+.alerta {
+    font-size: 20px;
+    padding: 11px 35px;
+    margin-bottom: 30px;
+    display: flex;
+}
